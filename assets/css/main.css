@@ -82,7 +82,7 @@ main{
 
 .first-section{
     position: relative;
-    height: 400px;
+    height: 160px;
     max-width: 900px;
     margin: auto;
 }
@@ -116,6 +116,43 @@ main{
     width: calc(100% * 0.82);
     float: right;
     margin-top: 60px;
+}
+
+.about-us-section{
+    max-width: 900px;
+    height: 400px;
+    margin: auto;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us>div:first-child{
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+    padding: 20px;
+    width: 33%;
+}
+
+.about-us>div:last-child{
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-color);
+    padding: 20px 20px 60px 20px;
+    width: 100%;
+}
+
+.about-us>div:first-child>h1{
+    font-family: NeusaDemiBold;
+    margin: 0!important;
+    font-size: 52px;
+    text-align: right;
+}
+
+.about-us>div:last-child>h2{
+    margin: 0!important;
 }
 
 footer{
