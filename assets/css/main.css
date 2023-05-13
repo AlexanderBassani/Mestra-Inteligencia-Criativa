@@ -285,7 +285,7 @@ main{
 
 .section2-message1>p>cite{
     font-family: NeusaDemiBold;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .section2-message2>p{
@@ -295,7 +295,7 @@ main{
 
 .section2-message2>p>cite{
     font-family: NeusaDemiBold;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .section2-messages-hr1,
@@ -348,4 +348,201 @@ footer{
     font-family: NeusaDemiBold;
     font-size: 18px;
     color: var(--secondary-color);
+}
+
+@media (max-width: 900px){
+    .second-section-info > h1 {
+        font-size: 25px;
+    }
+
+    .second-section-info:nth-child(2)>h1 {
+        width: 343px;
+        margin-left: 15vw!important;
+    }
+
+    .second-section-info:nth-child(3)>h1 {
+        width: 230px;
+        margin-left: 33vw!important;
+    }
+
+    .second-section-info:nth-child(4)>h1 {
+        width: 300px;
+        margin-left: 37vw!important;
+    }
+
+    .second-section-info:nth-child(5)>h1 {
+        width: 300px;
+        margin-left: 43vw!important;
+    }
+}
+
+@media (max-width: 860px){
+
+    .section2-message1>p>cite{
+        font-size: 25px;
+    }
+
+    .section2-message1>p{
+        font-size: 15px;
+    }
+
+    .section2-message2>p>cite{
+        font-size: 25px;
+    }
+
+    .section2-message2>p{
+        font-size: 15px;
+    }
+
+    .section2-messages-hr2 {
+        top: 173px;
+    }
+
+    .second-section {
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 830px){
+    .first-section>div:last-child>h1 {
+        font-size: 25px;
+    }
+
+    .first-section-img {
+        width: 220px;
+    }
+
+    .first-section-text > h2 {
+        font-size: 25px;
+    }
+
+    .img-header{
+        display: none;
+    }
+
+    .logo-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        height: 350px;
+    }
+
+    .first-section-section {
+        height: 450px;
+    }
+
+    .second-section-title > p {
+        font-size: 30px;
+    }
+
+    .second-section-title {
+        width: 700px;
+    }
+}
+
+@media (max-width: 780px){
+    .first-section>div:first-child>h1:first-child{
+        font-family: NeusaDemiBold;
+        font-size: 40px;
+    }
+    .first-section>div:first-child>h1:last-child{
+        font-family: NeusaBold;
+        font-size: 40px;
+    }
+
+    .first-section>div:last-child>h1 {
+        font-size: 20px;
+    }
+
+    .first-section-img {
+        top: 100px;
+        width: 190px;
+    }
+
+    .first-section-text > h2 {
+        font-size: 20px;
+    }
+    .first-section-text {
+        width: 300px;
+    }
+}
+
+@media (max-width: 735px){
+     .section2-message1>p>cite{
+        font-size: 20px;
+    }
+
+    .section2-message1>p{
+        font-size: 12px;
+    }
+
+    .section2-message2>p>cite{
+        font-size: 20px;
+    }
+
+    .section2-message2>p{
+        font-size: 12px;
+    }
+
+    .section2-messages-hr2 {
+        top: 144px;
+    }
+
+    .second-section {
+        height: 660px;
+    }
+    
+}
+
+@media (max-width: 620px){
+    .section2-message1, .section2-message2 {
+        padding: 15px;
+        width: 45%;
+    }
+
+    .section2-message1>p>cite{
+        font-size: 17px;
+    }
+
+    .section2-message1>p{
+        font-size: 13px;
+    }
+
+    .section2-message2>p>cite{
+        font-size: 17px;
+    }
+
+    .section2-message2>p{
+        font-size: 13px;
+    }
+
+    .section2-messages-hr2 {
+        top: 77px;
+    }
+
+    .second-section {
+        height: 600px;
+    }
+}
+
+@media (max-width: 578px){
+
+    .section2-messages-hr2 {
+        top: 103px;
+    }
+
+    .second-section {
+        height: 615px;
+    }
+}
+
+@media (max-width: 502px){
+
+    .second-section {
+        height: 635px;
+    }
 }
