@@ -114,10 +114,10 @@ main{
 .hs-title1{
     text-align: right;
     padding: 5px 10px 5px 5px;
-    width: 100vw;
+    width: 91vw;
     position: absolute;
     top: -15px;
-    right: 120px;
+    right: 9vw;
 }
 
 .hs-title1 > h1,
@@ -131,10 +131,10 @@ main{
     position: absolute;
     text-align: left;
     padding: 5px 5px 5px 30px;
-    width:100vw;
+    width: 100vw;
     /* float: left; */
     top: 60px;
-    left: 120px;
+    left: 0vw;
 }
 
 .first-section-section{
