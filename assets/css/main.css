@@ -495,10 +495,22 @@ footer{
     .second-section {
         height: 660px;
     }
+
+    img.logo-header {
+        width: 210px;
+    }
+
+    header {
+        height: 280px;
+    }
+
+    .hr-header {
+        top: 210px;
+    }
     
 }
 
-@media (max-width: 620px){
+@media (max-width: 630px){
     .section2-message1, .section2-message2 {
         padding: 15px;
         width: 45%;
@@ -525,7 +537,32 @@ footer{
     }
 
     .second-section {
-        height: 600px;
+        height: 560px;
+    }
+
+    .second-section-info > h1 {
+        font-size: 18px;
+    }
+
+    .second-section-info:nth-child(2)>h1 {
+        width: 255px;
+    }
+
+    .second-section-info:nth-child(3)>h1 {
+        width: 173px;
+    }
+
+    .second-section-info:nth-child(4)>h1 {
+        width: 224px;
+    }
+
+    .second-section-info:nth-child(5)>h1 {
+        width: 218px;
+    }
+
+    .second-section-info > hr {
+        top: -10px;
+        border-width: 8px;
     }
 }
 
@@ -536,13 +573,17 @@ footer{
     }
 
     .second-section {
-        height: 615px;
+        height: 585px;
     }
 }
 
 @media (max-width: 502px){
 
+    .section2-messages-hr2 {
+        top: 103px;
+    }
+
     .second-section {
-        height: 635px;
+        height: 600px;
     }
 }
