@@ -51,7 +51,7 @@ body{
     overflow-x: hidden;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,p{
     margin: 0!important;
 }
 
@@ -198,7 +198,7 @@ main{
 
 .second-section{
     max-width: 900px;
-    height: 510px;
+    height: 750px;
     margin: auto;
     position: relative;
 }
@@ -220,7 +220,7 @@ main{
 
 .second-section-info {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .second-section-info > h2{
@@ -254,12 +254,73 @@ main{
 .second-section-info > hr{
     color: var(--secondary-color);
     position: absolute;
-    top: -4px;
-    left: calc(-50% + 450px);
+    top: -7px;
     width: 100vw;
-    border-width: 10px;
+    border-width: 15px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.section2-messages{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.section2-message1,
+.section2-message2{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 40%;
+    padding: 20px;    
+    background-color: var(--default-bg-color);
+    z-index: 9;
+}
+.section2-message1>p{
+    font-family: NeusaMedium;
+    font-size: 20px;
+}
+
+.section2-message1>p>cite{
+    font-family: NeusaDemiBold;
+    font-size: 32px;
+}
+
+.section2-message2>p{
+    font-family: NeusaMedium;
+    font-size: 20px;
+}
+
+.section2-message2>p>cite{
+    font-family: NeusaDemiBold;
+    font-size: 32px;
+}
+
+.section2-messages-hr1,
+.section2-messages-hr2{
+    color: var(--secondary-color);
+    position: absolute;
+    width: 100vw;
+    border-width: 2px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section2-messages-hr1{
+    top: 20px;
+}
+
+.section2-messages-hr2{
+    top: 209px;
+}
+
+.section2-hr{
+    color: var(--secondary-color);
+    width: 100vw;
+    border-width: 8px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 50px
 }
 
 footer{
