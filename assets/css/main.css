@@ -327,3 +327,17 @@ footer{
     background-color: var(--primary-bg-color);
     color: var(--default-color);
 }
+
+.footer-div{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-div > div > p{
+    font-family: NeusaDemiBold;
+    font-size: 20px;
+}
