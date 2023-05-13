@@ -173,7 +173,7 @@ main{
     font-size: 52px;
 }
 
-.first-section>div:last-child>h2{
+.first-section>div:last-child>h1{
     font-family: NeusaMedium;
     font-size: 32px;
     text-align: center;
@@ -187,12 +187,14 @@ main{
 }
 
 .first-section-text{
-    color: var(--primary-color);
     border: 2px solid var(--secondary-color);
     padding: 20px;
     width: 390px;
     font-size: 35px;
     margin: 30px 0 50px 70px;
+}
+.first-section-text > h2{
+    color: var(--primary-color);
     font-family: NeusaMedium;
 }
 
@@ -212,7 +214,7 @@ main{
     color: var(--secondary-color);
 }
 
-.second-section-title > h1{
+.second-section-title > p{
     font-size: 40px;
     font-family: NeusaDemiBold;
     text-align: center;
@@ -223,7 +225,7 @@ main{
     margin-bottom: 40px;
 }
 
-.second-section-info > h2{
+.second-section-info > h1{
     display: flex;
     justify-content: center;
     color: var(--primary-color);
@@ -234,19 +236,19 @@ main{
     font-size: 29px;
     align-items: center;
 }
-.second-section-info:nth-child(2)>h2{
+.second-section-info:nth-child(2)>h1{
     width: 394px;
     margin-left: 95px!important;
 }
-.second-section-info:nth-child(3)>h2{
+.second-section-info:nth-child(3)>h1{
     width: 262px;
     margin-left: 277px!important;
 }
-.second-section-info:nth-child(4)>h2{
+.second-section-info:nth-child(4)>h1{
     width: 340px;
     margin-left: 343px!important
 }
-.second-section-info:nth-child(5)>h2{
+.second-section-info:nth-child(5)>h1{
     width: 344px;
     margin-left: 464px!important;
 }
@@ -339,5 +341,11 @@ footer{
 
 .footer-div > div > p{
     font-family: NeusaDemiBold;
-    font-size: 20px;
+    font-size: 18px;
+
+}
+.footer-div > div > a{
+    font-family: NeusaDemiBold;
+    font-size: 18px;
+    color: var(--secondary-color);
 }
