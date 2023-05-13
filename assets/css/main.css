@@ -114,27 +114,27 @@ main{
 .hs-title1{
     text-align: right;
     padding: 5px 10px 5px 5px;
-    width: 91vw;
+    width: 100vw;
     position: absolute;
     top: -15px;
-    right: 9vw;
+    right: 120px;
 }
 
 .hs-title1 > h1,
 .hs-title2 > h1{
-    font-size: 2.8em;
+    font-size: 40px;
     font-family: NeusaMedium;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
 }
 
 .hs-title2{
     position: absolute;
     text-align: left;
     padding: 5px 5px 5px 30px;
-    width: 100vw;
+    width:100vw;
     /* float: left; */
-    top: 60px;
-    left: 0vw;
+    top: 65px;
+    left: 120px;
 }
 
 .first-section-section{
