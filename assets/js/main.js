@@ -23,18 +23,16 @@ $(function () {
             let distance = topPage - $(this).offset().top;
             let hash = $(this).attr('href');
 
-            console.log(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != '')
-
-            if(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != ''){
-                window.history.pushState({}, "", url);
-                currentHash = ''
-            }
-
             if (distance < 30 && distance > -30 && currentHash != hash) {
                 // alert(hash);
                 currentHash = hash;
                 window.history.pushState({}, "", url + '#' + hash);
                 
+            }
+
+            if(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != ''){
+                window.history.pushState({}, "", url);
+                currentHash = ''
             }
             
             // if((window.innerHeight + Math.round(window.scrollY)) >= document.body.offsetHeight){
