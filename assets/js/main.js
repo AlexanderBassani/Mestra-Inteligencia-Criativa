@@ -26,7 +26,11 @@ $(function () {
             if (distance < 30 && distance > -30 && currentHash != hash) {
                 // alert(hash);
                 currentHash = hash;
-                window.history.pushState({}, "", url + '#' + hash);
+                if(hash != 'header'){
+                    window.history.pushState({}, "", url + '#' + hash);
+                } else{
+                    window.history.pushState({}, "", url);
+                }
                 
             }
             
