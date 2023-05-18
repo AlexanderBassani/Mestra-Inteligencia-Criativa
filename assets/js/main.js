@@ -29,8 +29,10 @@ $(function () {
                 window.history.pushState({}, "", url + '#' + hash);
                 
             }
-            console.log(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != hash)
-            if(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != hash){
+            console.log(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != '')
+            console.log(topPage)
+            console.log($('#a-mestra').offset().top)
+            if(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != ''){
                 window.history.pushState({}, "", url);
                 currentHash = ''
             }
