@@ -4,7 +4,6 @@ const url = 'https://mestrainteligencia.com.br/'
 $(function () {
     var currentHash = "#one"
     $(document).scroll(function () {
-        console.log($(this).offset())
         $('.hash').each(function () {
             var top = window.pageYOffset;
             var distance = top - $(this).offset().top;
