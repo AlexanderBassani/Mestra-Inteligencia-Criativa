@@ -16,6 +16,7 @@ $(document).ready(() => {
 
 $(function () {
     $(document).scroll(function () {
+        let currentHash = ''
         $('.hash').each(function () {
             let top = window.pageYOffset;
             let distance = top - $(this).offset().top;
