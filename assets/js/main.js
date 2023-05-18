@@ -19,15 +19,11 @@ $(function () {
         let currentHash = ''
         let top = window.pageYOffset;
 
-        if(top == 0){
-            window.history.pushState({}, "", url);
-        }
-        
         $('.hash').each(function () {
             let distance = top - $(this).offset().top;
             let hash = $(this).attr('href');
 
-            if(distance == 0){
+            if(top => 0 && top , $('#a-mestra').offset().top){
                 window.history.pushState({}, "", url);
             }
 
