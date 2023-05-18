@@ -23,7 +23,7 @@ $(function () {
             let distance = top - $(this).offset().top;
             let hash = $(this).attr('href');
 
-            if(top => 0 && top < ($('#a-mestra').offset().top - 30) && currentHash == ''){
+            if(top => 0 && top < ($('#a-mestra').offset().top - 30) && currentHash != ''){
                 window.history.pushState({}, "", url);
                 currentHash = ''
             }
@@ -31,7 +31,6 @@ $(function () {
             if (distance < 30 && distance > -30 && currentHash != hash) {
                 // alert(hash);
                 currentHash = hash;
-                console.log(url + '/teste')
                 window.history.pushState({}, "", url + '#' + hash);
                 
             }
