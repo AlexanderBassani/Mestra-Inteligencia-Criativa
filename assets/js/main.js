@@ -30,7 +30,7 @@ $(function () {
                 // alert(hash);
                 currentHash = hash;
                 console.log(url + '/teste')
-                window.history.pushState({}, "", url + hash);
+                window.history.pushState({}, "", url + '#' + hash);
                 
             }
             
