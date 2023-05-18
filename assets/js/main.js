@@ -17,13 +17,15 @@ $(document).ready(() => {
 $(function () {
     $(document).scroll(function () {
         let currentHash = ''
-        let top = window.pageYOffset;
+        let topPage = window.pageYOffset;
 
         $('.hash').each(function () {
-            let distance = top - $(this).offset().top;
+            let distance = topPage - $(this).offset().top;
             let hash = $(this).attr('href');
 
-            if(top >= 0 && top <= ($('#a-mestra').offset().top - 30) && currentHash != ''){
+            console.log(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != '')
+
+            if(topPage >= 0 && topPage <= ($('#a-mestra').offset().top - 30) && currentHash != ''){
                 window.history.pushState({}, "", url);
                 currentHash = ''
             }
