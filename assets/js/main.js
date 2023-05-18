@@ -17,8 +17,13 @@ $(document).ready(() => {
 $(function () {
     $(document).scroll(function () {
         let currentHash = ''
+        let top = window.pageYOffset;
+
+        if(top == 0){
+            window.history.pushState({}, "", url);
+        }
+        
         $('.hash').each(function () {
-            let top = window.pageYOffset;
             let distance = top - $(this).offset().top;
             let hash = $(this).attr('href');
 
