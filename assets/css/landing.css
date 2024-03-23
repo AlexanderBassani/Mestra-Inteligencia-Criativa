@@ -1,0 +1,171 @@
+header {
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h3 {
+    font-family: NeusaDemiBold;
+}
+
+header>img {
+    width: 320px;
+    margin-top: -15px;
+}
+
+.section-1>.section-content,
+.section-2>.section-content,
+.section-3>.section-content,
+.section-4>.section-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.section-1>.section-content>h2 {
+    font-family: NeusaMedium;
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+/* .section-1>.section-content>h2:nth-child(1) {
+    margin-top: 45px !important;
+} */
+
+.section-1>.section-content>h2:nth-child(2) {
+    /* margin-bottom: 45px !important; */
+    text-decoration: underline solid var(--secondary-color);
+}
+
+.section-1>.section-content>h4 {
+    font-family: NeusaDemiBold;
+    text-align: center;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.on-offline {
+    /* margin: 30px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.on-offline>h2 {
+    font-family: NeusaLight;
+}
+
+.on-offline>h2:nth-child(1) {
+    background-color: var(--secondary-bg-color);
+    color: var(--default-color);
+    padding: 5px 8px;
+}
+
+.on-offline>h2:nth-child(2) {
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+    padding: 5px 8px;
+}
+
+.div-hr-full {
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+    text-align: center;
+}
+
+.div-hr-full>h3 {
+    font-family: NeusaMedium;
+    font-size: 35px;
+    /* font-family: NeusaLight; */
+}
+
+#privacy-policy>a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.form-label {
+    font-family: 'NeusaMedium';
+    font-size: 25px;
+}
+
+.form-control {
+    border-radius: 0;
+    background-color: #d9d9d9;
+    font-family: 'Neusa';
+    font-size: 22px;
+}
+
+.div-hr {
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+    text-align: center;
+}
+
+.section-3>.section-content>h5 {
+    font-family: NeusaMedium;
+    font-size: 35px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.section-3>.section-content>p {
+    font-family: NeusaBold;
+    font-size: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.div-hr>h2 {
+    font-family: NeusaMedium;
+    font-size: 40px;
+    /* font-family: NeusaLight; */
+}
+
+.section-4-header {
+    background-color: var(--secondary-bg-color);
+    color: var(--default-color);
+}
+
+.parceiros {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.parceiros>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--primary-bg-color);
+    color: var(--default-color);
+}
+
+.footer-div {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-div>div>p {
+    font-family: NeusaDemiBold;
+    font-size: 18px;
+
+}
+
+.footer-div>div>a {
+    font-family: NeusaDemiBold;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
