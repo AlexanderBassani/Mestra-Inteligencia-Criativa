@@ -83,6 +83,10 @@ header>img {
     /* font-family: NeusaLight; */
 }
 
+#privacy-policy {
+    font-size: 20px;
+}
+
 #privacy-policy>a {
     color: var(--secondary-color);
     text-decoration: underline;
@@ -91,14 +95,26 @@ header>img {
 
 .form-label {
     font-family: 'NeusaMedium';
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .form-control {
     border-radius: 0;
     background-color: #d9d9d9;
     font-family: 'Neusa';
-    font-size: 22px;
+    font-size: 28px;
+}
+
+#PRIVACYPOLICYCHECK {
+    font-size: 25px;
+}
+
+.mb-3.form-check {
+    padding-left: 38px !important;
+}
+
+.form-check-label {
+    font-size: 20px;
 }
 
 .div-hr {
@@ -168,4 +184,64 @@ footer {
     font-family: NeusaDemiBold;
     font-size: 18px;
     color: var(--secondary-color);
+}
+
+@media (max-width: 850px) {
+    .parceiros {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer-div {
+        flex-direction: column !important;
+    }
+
+    .section-1>.section-content>h2 {
+        font-size: 30px;
+    }
+
+    .section-1>.section-content>h4 {
+        font-size: 18px;
+    }
+
+    .form-label {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 18px;
+    }
+
+    #privacy-policy {
+        font-size: 16px;
+    }
+
+    #PRIVACYPOLICYCHECK {
+        font-size: 30px;
+    }
+
+    .mb-3.form-check {
+        padding-left: 38px !important;
+    }
+
+    .form-check-label {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+    .section-1>.section-content>h2 {
+        font-size: 25px;
+    }
+
+    .section-1>.section-content>h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .parceiros {
+        grid-template-columns: 1fr;
+    }
 }
