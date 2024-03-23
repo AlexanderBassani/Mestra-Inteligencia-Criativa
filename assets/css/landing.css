@@ -10,6 +10,7 @@ header {
 
 header>h3 {
     font-family: NeusaDemiBold;
+    text-align: center;
 }
 
 header>img {
@@ -106,7 +107,7 @@ header>img {
 }
 
 #PRIVACYPOLICYCHECK {
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .mb-3.form-check {
@@ -114,7 +115,7 @@ header>img {
 }
 
 .form-check-label {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .div-hr {
@@ -228,6 +229,18 @@ footer {
     .form-check-label {
         font-size: 20px;
     }
+
+    #PRIVACYPOLICYCHECK {
+        font-size: 21px;
+    }
+
+    .mb-3.form-check {
+        padding-left: 38px !important;
+    }
+
+    .form-check-label {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 590px) {
@@ -238,10 +251,92 @@ footer {
     .section-1>.section-content>h4 {
         font-size: 16px;
     }
+
+    header>h3 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 550px) {
     .parceiros {
         grid-template-columns: 1fr;
+    }
+
+    .div-hr-full>h3 {
+        font-size: 30px;
+    }
+
+    .on-offline>h2 {
+        font-size: 20px;
+    }
+
+    .section-3>.section-content>h5 {
+        font-size: 30px;
+    }
+
+    .section-3>.section-content>p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 490px) {
+    .section-1>.section-content>h2 {
+        font-size: 20px;
+    }
+
+    .section-1>.section-content>h4 {
+        font-size: 14px;
+    }
+
+    .div-hr-full>h3 {
+        font-size: 25px;
+    }
+
+    /* header>h3 {
+        font-size: 18px;
+    } */
+}
+
+@media (max-width: 470px) {
+    .div-hr>h2 {
+        font-size: 30px;
+    }
+
+    .section-3>.section-content>h5 {
+        font-size: 25px;
+    }
+
+    .section-3>.section-content>p {
+        font-size: 20px;
+    }
+
+    #PRIVACYPOLICYCHECK {
+        font-size: 18px;
+    }
+
+    .mb-3.form-check {
+        padding-left: 30px !important;
+    }
+
+    .form-check-label {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 440px) {
+    .section-1>.section-content>h2 {
+        font-size: 18px;
+    }
+
+    .section-1>.section-content>h4 {
+        font-size: 12px;
+    }
+
+    .div-hr-full>h3 {
+        font-size: 20px;
+    }
+
+    .on-offline>h2 {
+        font-size: 16px;
     }
 }
