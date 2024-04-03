@@ -41,7 +41,7 @@
                 <h3>PREENCHA O FORMULÁRIO ABAIXO E NÓS ENTRAREMOS EM CONTATO</h3>
             </div>
             <div class="section-content">
-                <form action="" id="sendMail" class="px-3">
+                <form method="POST" action="./mail.php" enctype="multipart/form-data" id="sendMail" class="px-3">
                     <div class="mb-3">
                         <label for="NOME" class="form-label">Nome</label>
                         <input type="text" class="form-control" id="NOME">
@@ -70,8 +70,7 @@
                         <label class="form-check-label form-text" for="PRIVACYPOLICYCHECK">Sim, li e concordo com os
                             termos da Política de Privacidade.</label>
                     </div>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="sendMailBtn" disabled>Enviar</button>
                 </form>
             </div>
         </section>
@@ -124,7 +123,8 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script src="assets/js/main.js"></script>
+<!-- <script src="assets/js/main.js"></script> -->
+<script src="assets/js/landing.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11189522722"></script>
 <script>
